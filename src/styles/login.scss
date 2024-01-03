@@ -1,0 +1,46 @@
+.login-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+
+  .header-wrap {
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title {
+      font-size: 24px;
+    }
+
+    .register {
+      color: $l-green-5;
+      text-align: center;
+    }
+  }
+
+  .login-text {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+
+    span {
+      flex: 1;
+      font-size: 12px;
+    }
+
+    .forget {
+      color: $l-orange-5;
+      text-align: end;
+    }
+
+    .verification {
+      color: $l-blue-5;
+    }
+  }
+
+  .login-btn {
+    margin-top: 20px;
+  }
+}

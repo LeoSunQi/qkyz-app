@@ -1,0 +1,62 @@
+.pages {
+  width: 100%;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+}
+
+.container {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.base-image {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line-clamp,
+.line-clamp-2,
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line-clamp-2 {
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+  -webkit-line-clamp: 3;
+}
+
+.usdt-price::after {
+  content: ' USDT';
+  font-size: 85%;
+}
+
+.col-even {
+  padding: 15px 0;
+
+  &:nth-child(even) {
+    background: $l-slate-1;
+    border-radius: 4px;
+  }
+}
+
+.col-odd {
+  padding: 15px 0;
+
+  &:nth-child(odd) {
+    background: $l-slate-1;
+    border-radius: 4px;
+  }
+}

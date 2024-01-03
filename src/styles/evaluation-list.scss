@@ -1,0 +1,137 @@
+.e-list {
+  .el-col {
+    text-align: end;
+    font-size: 18px;
+    font-weight: 600;
+
+    .elc-tag {
+      margin-top: 6px;
+    }
+
+    .elc-lock {
+      .pay-icon {
+        padding: 0 4px;
+      }
+    }
+
+    .elc-price {
+      margin-top: 2px;
+      font-size: 14px;
+      color: $l-red-5;
+
+      &::after {
+        content: ' USDT';
+        font-size: 85%;
+      }
+    }
+  }
+
+  .el-content {
+    .elc-title {
+      margin-top: 10px;
+      padding: 10px 0;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .elc-text {
+      font-size: 12px;
+    }
+
+    .elc-footer {
+      font-size: 12px;
+      color: $l-gray-7;
+      padding: 4px 0;
+
+      span {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .el-lock {
+    background-color: $l-gray-1;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .el-ul {
+    .elu-col {
+      font-size: 12px;
+      border-left: 1px solid $l-gray-3;
+
+      .eluc-cell {
+        padding: 4px 0;
+
+        i {
+          color: $l-green-5;
+        }
+
+        em {
+          color: $l-blue-5;
+        }
+      }
+    }
+
+    .elu-content {
+      font-size: 12px;
+
+      .eluc-text {
+        padding: 10px 0;
+      }
+
+      .eluc-text-4 {
+        padding: 4px 0;
+      }
+
+      .eluc-footer {
+        color: $l-gray-7;
+      }
+
+      .eluc-tool {
+        margin-top: 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .btn {
+          width: 80px;
+        }
+      }
+    }
+
+    .elu-content-top {
+      margin-top: 10px;
+    }
+  }
+
+  .el-tool {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+    .elt-item {
+      color: $l-blue-5;
+      font-size: 14px;
+
+      span {
+        margin-left: 10px;
+
+        i {
+          font-weight: bold;
+
+          &::after {
+            content: 'USDT';
+            font-size: 85%;
+          }
+        }
+      }
+    }
+
+    .elt-price {
+      color: $l-orange-5;
+    }
+  }
+}

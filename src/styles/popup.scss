@@ -1,0 +1,36 @@
+.popup-container {
+  box-sizing: border-box;
+  padding: 0 20px;
+  .p-title {
+    box-sizing: border-box;
+    padding: 20px 0;
+    font-weight: bold;
+  }
+  .p-content {
+    padding: 10px 0;
+    .p-rate {
+      padding: 15px 0;
+    }
+  }
+  .p-desc {
+    font-size: 12px;
+    color: $l-gray-6;
+    padding-bottom: 15px;
+    .p-desc-title {
+      color: $l-gray-8;
+      margin-bottom: 6px;
+    }
+  }
+  .p-input-bg {
+    background-color: $l-gray-2;
+  }
+  .p-input {
+    margin-top: 10px;
+  }
+  .p-footer {
+    margin-top: 15px;
+  }
+}
+.popup-center {
+  text-align: center;
+}
