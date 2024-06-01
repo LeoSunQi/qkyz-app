@@ -7,7 +7,7 @@
  */
 import router from "."
 import { getToken } from '@/utils/auth'
-import mineRouterMap from "./moudules/mine"
+import mineRouterMap from "./modules/mine"
 
 const authList = mineRouterMap.map(item => item.path)
 
